@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swipeable-list {
+    margin-right: 16rem;
+    width: 30rem;
+}
+
+.swipe-action__leading {
+    background-image: url(../public/img/b.png);
+    color: white;
+    opacity: 90%;
+    
+}
+
+.swipe-action__trailing {
+    background-image: url(../public/img/bb.png);
+    color: white;
+    opacity: 90%;
+
+}
+
+.swipeable-list .swipe-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    text-align: right;
+    font-weight: bold;
+    font-family: serif;
+   
+    margin-top: 41px;
+    margin-right: 0;
+}
+
+.carousel{
+    margin-right: 4rem;
+    margin-top: 6rem;
+    width: auto;
+}
+@media (max-width: 375px){
+    .carousel{
+        width: 22rem;
+    }
+}
+
+
+/* edit swipeable */
+.swipeable-list-item__leading-actions {
+    height: 552px;
+    margin-top: -2.5rem;
+}
+
+@media (max-width: 375px){
+    .swipeable-list-item__leading-actions {
+        padding-top: 3rem;
+        height: 37.3rem;
+    }
+
+}
+
+
+.swipeable-list-item__trailing-actions{
+    height: 552px;
+    margin-top: -2.5rem;
+}
+
+@media (max-width: 375px){
+    .swipeable-list-item__trailing-actionss {
+        margin-top: 0.5rem !important;
+        height: 554px !important;
+    }
+
+}
+
+
